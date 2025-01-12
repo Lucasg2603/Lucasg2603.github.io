@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Sonnenschein - Preise & Zimmer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f6f8f9 0%, #e5ebee 100%);
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #2c3e50;
+        }
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            padding: 40px;
+            text-align: center;
+            max-width: 600px;
+            width: 90%;
+        }
+        .logo {
+            font-size: 3rem;
+            color: #3498db;
+            margin-bottom: 20px;
+        }
+        .price-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .price-table th, .price-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        .button {
+            display: block;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            margin: 15px 0;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+        .button:hover {
+            background: #2980b9;
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🏨 Hotel Sonnenschein</div>
+        <h1>Unsere Zimmerpreise 2025</h1>
+        
+        <table class="price-table">
+            <tr>
+                <th>Zimmertyp</th>
+                <th>Nebensaison</th>
+                <th>Hauptsaison</th>
+            </tr>
+            <tr>
+                <td>Komfort-Doppelzimmer</td>
+                <td>ab 63,00 €</td>
+                <td>ab 67,00 €</td>
+            </tr>
+            <tr>
+                <td>Deluxe-Doppelzimmer</td>
+                <td>ab 68,00 €</td>
+                <td>ab 71,00 €</td>
+            </tr>
+            <tr>
+                <td>Sonnenschein Suite</td>
+                <td>ab 222,00 €</td>
+                <td>ab 242,00 €</td>
+            </tr>
+        </table>
+        
+        <a href="#" class="button">📅 Jetzt Reservieren</a>
+        <a href="#" class="button">🏠 Zimmerdetails</a>
+        
+        <p>Kontakt: +49-2671-7444</p>
+        <p>E-Mail: reservierung@sonnenschein-mosel.de</p>
+    </div>
+</body>
+</html>
